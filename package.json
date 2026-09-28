@@ -1,0 +1,41 @@
+{
+  "name": "@compton-class/safety-framework-v2",
+  "version": "2.0.0",
+  "description": "Compton-Class Nuclear-Grade Safety Framework v2.0 - Amplified with 5x MDM + 4x Reflection + 100% Optimization",
+  "author": "Michael Aaron Russell",
+  "license": "MIT",
+  "main": "dist/index-v2.js",
+  "types": "dist/index-v2.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/DemonstrateComptonFramework.js",
+    "test": "npm run build && node dist/test-compton.js",
+    "v2-demo": "npm run build && node dist/ComptonSafetyFramework-v2-Integration.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "safety",
+    "formal-logic",
+    "executable-code",
+    "constraint",
+    "cryptographic-proof",
+    "audit-log",
+    "compton-class",
+    "nuclear-grade",
+    "WAD-18",
+    "bigint",
+    "aspect-system",
+    "reflection",
+    "MDM-amplification",
+    "5x-expansion",
+    "4x-reflection",
+    "100x-optimization"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
